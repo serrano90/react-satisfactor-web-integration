@@ -1,13 +1,13 @@
-# satisfactor-web-integration
+# react-satisfactor-web-integration
 
-> This package help you for integrate the satisfactor survey in you web site develoern react
+> This package helps you integrate the satisfaction survey into any website implemented in react
 
-[![NPM](https://img.shields.io/npm/v/satisfactor-web-integration.svg)](https://www.npmjs.com/package/satisfactor-web-integration) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/satisfactor-web-integration.svg)](https://www.npmjs.com/package/react-satisfactor-web-integration) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save satisfactor-web-integration
+npm install --save react-satisfactor-web-integration
 ```
 
 ## Usage
@@ -15,12 +15,21 @@ npm install --save satisfactor-web-integration
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'satisfactor-web-integration'
+import { Satifactor, UserSurvey } from 'react-satisfactor-web-integration'
 
 class Example extends Component {
   render () {
+    const userSurvey = new UserSurvey({
+      id: 589746,
+      name: 'Testing Test',
+      email: 'test@satisfactor.com',
+      cellPhone: null,
+      company: null,
+    });
     return (
-      <MyComponent />
+      <div>
+        <Satisfactor projectToken='ybpK2y8bLaGaVRRuGfm3hP7nrRPzB6PX' userSurvey={userSurvey} />
+      </div>
     )
   }
 }

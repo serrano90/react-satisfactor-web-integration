@@ -1,10 +1,10 @@
 {
-  "name": "satisfactor-web-integration",
+  "name": "react-satisfactor-web-integration",
   "version": "1.0.0",
-  "description": "This package help you for integrate the satisfactor survey in you web site develoern react",
-  "author": "",
+  "description": "This package helps you integrate the satisfaction survey into any website implemented in react",
+  "author": "Andros Serrano Hernandez",
   "license": "MIT",
-  "repository": "/satisfactor-web-integration",
+  "repository": "serrano90/react-satisfactor-web-integration",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -22,7 +22,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "prop-types": "^15.5.4",
+    "prop-types": "^15.5.7",
     "react": "^15.0.0 || ^16.0.0",
     "react-dom": "^15.0.0 || ^16.0.0"
   },

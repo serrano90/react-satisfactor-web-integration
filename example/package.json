@@ -1,6 +1,6 @@
 {
-  "name": "satisfactor-web-integration-example",
-  "homepage": "https://.github.io/satisfactor-web-integration",
+  "name": "react-satisfactor-web-integration-example",
+  "homepage": "https://.github.io/react-satisfactor-web-integration",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
@@ -9,7 +9,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4",
-    "satisfactor-web-integration": "file:.."
+    "react-satisfactor-web-integration": "file:.."
   },
   "scripts": {
     "start": "react-scripts start",
