@@ -15,7 +15,7 @@ npm install --save react-satisfactor-web-integration
 ```jsx
 import React, { Component } from 'react'
 
-import { Satifactor, UserSurvey } from 'react-satisfactor-web-integration'
+import { Satisfactor, UserSurvey } from 'react-satisfactor-web-integration'
 
 class Example extends Component {
   render () {
