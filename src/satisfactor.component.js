@@ -17,7 +17,6 @@ export default class Satisfactor extends Component {
     } = this.props
 
     if (userSurvey instanceof UserSurvey && userSurvey.isValid()) {
-      console.log('hire')
       const script = document.createElement('script')
       script.type = 'text/javascript'
       script.innerHTML = `!function(){window.satisfactor=window.satisfactor||function(){(window.satisfactor.value=window.satisfactor.value||[]).push(arguments)};var e=document.createElement("script"),t=document.getElementsByTagName("script")[0].parentNode;e.async=1,e.src="https://app.satisfactor.io/js/nps.min.js",t.appendChild(e);var s=document.createElement("link"),a=document.getElementsByTagName("head")[0];s.type="text/css",s.rel="stylesheet",s.href="https://app.satisfactor.io/css/nps.min.css",a.appendChild(s)}();
